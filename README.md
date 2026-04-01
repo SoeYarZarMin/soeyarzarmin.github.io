@@ -9,7 +9,8 @@
 > Passionate about learning how systems work and applying knowledge to real-world projects.
 
 # Education
-* HND Computing – Payap University (Current)
+* Diploma in Computing – YOUTH International College, Yangon
+* Bachelor’s Degree in Computer Science (Currently Studying) – Payap University, Thailand
 
 # Skills
 * Programming: HTML, CSS, JavaScript, Python (basic)
@@ -17,8 +18,8 @@
 * Interests: UI/UX Design, Web Development, Basic Data Analysis
 
 # Experience
-* Student Projects – Web Design and Development
-* Group Presentation – Cultural Beliefs & Superstitions (University Assignment)
+* First Runner-Up – IoT Things Competition (Project-based competition involving Internet of Things solutions)
+* Academic Projects – Web Design and Development
 
 # Interests
 * Learning new technologies
