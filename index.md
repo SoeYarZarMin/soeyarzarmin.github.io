@@ -1,5 +1,3 @@
-layout: default
-
 <img src="http://rbatzing.github.io/img/bob5.png" alt="RPB Photo" align="right" width="30%"/>
 
 # _Robert P Batzinger_
