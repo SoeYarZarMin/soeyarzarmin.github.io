@@ -1,52 +1,32 @@
 <img src="SYZM.jpg" alt="My Photo" align="right" width="30%"/>
 
-# _Soe Yar Zar Min_
-> _Praeceptor Emeritus_<br />
+# _Soe Soe_
+> _HND Computing Student_<br />
 > Payap University, Department of Computer Science<br />
-> Amphur Muang, Chiang Mai 50000, Thailand<br />
+> Chiang Mai, Thailand<br />
 
-> Computer Solutions Developer with decades of experience in Data Science and Big Data Analytics, Natural language Processing, Document Publishing Systems, 
-and Web Community Development as well as mutagenic and carcinogenic activities of anthelmintics
+> Motivated computing student with an interest in web development, UI design, and practical technology solutions. 
+> Passionate about learning how systems work and applying knowledge to real-world projects.
 
 # Education
-* SB Chemistry - Massachusetts Institute of Technology
-* PhD Pathobiology - Johns Hopkins University
-* NIH Post Doctoral Fellow - University of Wisconsin at Madison
-* MS Applied Mathematics and Computer Science - Indiana University - South Bend
+* HND Computing – Payap University (Current)
+
+# Skills
+* Programming: HTML, CSS, JavaScript, Python (basic)
+* Tools: Git, VS Code
+* Interests: UI/UX Design, Web Development, Basic Data Analysis
 
 # Experience
-* Summer Intern - New York State Rabies Screening Laboratory
-* Undergraduate Research Opportunity Intern - Environmental Health Sciences Center, Massachusetts Institute of Technology
-* Urban Vehicle Design Competition - Team communications and logistics officer, Massachusetts Institute of Technology
-* Research Assistant - Wellcome Laboratory, Johns Hopkins University 
-* Post Doctoral Fellow - McArdle Laboratory, University of Wisconsin at Madison
-* Project Head - Faculty of Pharmacy, Payap University
-* Acting Dean - Faculty of Science, Payap University
-* Software Development Lead - Computer-Assisted Text Processing Center, Thailand Bible Society
-* Director - United Bible Society Asia-Pacific Regional Computer-Assisted Text Processing Center
-* Office Manager - Martin Kehoe Law Office - Guilderland, NY
-* Informatics Lab Manager - Indiana University - South Bend
-* Computer Science Instructor - Payap University
-* IT Director - Payap University
-* Praceptor Emeritus - Payap University
+* Student Projects – Web Design and Development
+* Group Presentation – Cultural Beliefs & Superstitions (University Assignment)
 
 # Interests
-* Applied machine learning, data science, modeling and forecasting to assist decision making
-* Natural language processing to automate prepublication editing support
-* Web and online community development and e-business
-* Blended and online education for higher education and livelong learning
-* Bible study and its life applications
-
-# Project experience with Languages
-* Computer programming: Fortran 4, 6809 Assembler, C, MS BASIC, Forth, Z80 Assembler, Pascal, Lisp, C++, AWK, SNOBOL, APL, troff, SPITBOL, Perl, SmallTalk, Icon, Fortran 77, TeX, Metafont, XLISP, Visual Basic, SQL, Python, LaTeX, VBA, Ruby, Java, PHP, Ruby on Rails, R, JavaScript, Angular JS, Node JS, NoSQL, Bender, Julia
-* Human: English, Thai, French, German
-* OS Command shells: CP/M, UNIX, MSDOS, MS Windows, OsX, Linux, KSH, BASH, SSH, Ardunio, Android
-* Version control: RCS, CVS, Subversion, Bazaar, GIT
-* Open standards: HTML, CSS, XML, RSS, GPX, Unicode, ISO9001, ISO29110
+* Learning new technologies
+* Creating simple and clean UI designs
+* Exploring how software solves real-world problems
 
 # Contact Info
-* [Web Page](https://rbatzing.github.io)
-* [LinkedIn](https://www.linkedin.com/in/robert-batzinger)
-* [Twitter](https://twitter.com/rbatz)
-* [Google Scholar](https://scholar.google.com/citations?user=LYSacdYAAAAJ&hl=en)
-* [Research Gate](https://www.researchgate.net/profile/Robert-Batzinger)
+* [facebook](https://www.facebook.com/soe.yar.zar.min.971323)
+* [YouTube](https://www.youtube.com)
+* [TikTok](https://www.tiktok.com/@soe_soe016?is_from_webapp=1&sender_device=pc)
+* [GitHub](https://github.com/SoeYarZarMin/soeyarzarmin.github.io/edit/main/README.md)
