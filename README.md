@@ -1,4 +1,4 @@
-<img src="http://rbatzing.github.io/img/bob5.png" alt="RPB Photo" align="right" width="30%"/>
+<img src="luffy.jpeg" alt="My Photo" align="right" width="30%"/>
 
 # _Monkey D.Luffy_
 > _Praeceptor Emeritus_<br />
