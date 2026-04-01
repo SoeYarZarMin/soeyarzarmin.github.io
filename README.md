@@ -1,4 +1,4 @@
-<img src="syzm.jpg" alt="My Photo" align="right" width="30%"/>
+<img src="SYZM.jpg" alt="My Photo" align="right" width="30%"/>
 
 # _Soe Yar Zar Min_
 > _Praeceptor Emeritus_<br />
