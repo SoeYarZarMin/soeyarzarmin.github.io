@@ -1,4 +1,4 @@
-<img src="SYZM.jpg" alt="My Photo" align="right" width="30%"/>
+<img src="SYZM.jpg" alt="My Photo" align="right" width="20%"/>
 
 # _Soe Soe_
 > _HND Computing Student_<br />
