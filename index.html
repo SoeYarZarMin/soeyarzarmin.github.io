@@ -7,7 +7,10 @@
 
     <style>
         :root {
+            --primary: #2563eb;
             --dark: #1e293b;
+            --light: #f8fafc;
+            --accent: #0ea5e9;
         }
 
         body { 
@@ -17,80 +20,105 @@
             background-color: #9966CC;
         }
 
+        /* Navigation */
         nav { 
-            position: fixed; 
-            top: 0; 
-            width: 100%; 
-            background: #660099;
-            display: flex; 
-            justify-content: center; 
-            padding: 1rem 0; 
+            position: fixed; top: 0; width: 100%; background: #660099;
+            color: #ccccff;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            display: flex; justify-content: center; padding: 1rem 0; z-index: 1000;
         }
 
         nav a { 
-            color: #ffcccc; 
-            margin: 0 15px; 
-            cursor: pointer; 
-            font-weight: 600;
+            color: #ffcccc; text-decoration: none; margin: 0 15px; 
+            cursor: pointer; font-weight: 600; transition: 0.3s;
         }
+        nav a:hover { color: #ccccff; }
 
+        /* Page Layout */
         .page { 
-            display: none; 
-            min-height: 100vh; 
-            padding: 100px 20px; 
-            text-align: center;
+            display: none; min-height: 100vh; width: 100%; 
+            padding: 100px 20px 40px; box-sizing: border-box;
+            flex-direction: column; align-items: center; justify-content: center;
         }
 
-        .active { display: block; }
+        .active { display: flex; animation: fadeIn 0.5s ease; }
 
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Splash */
         #splash { 
             background: #110033; 
-            color: white;
+            color: white; text-align: center;
         }
 
+        /* Grid */
         .grid {
             display: grid; 
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 20px; 
-            max-width: 900px; 
-            margin: auto;
+            max-width: 1000px; 
+            margin-top: 30px;
         }
 
         .card {
             background: #ccddff; 
-            padding: 20px; 
-            border-radius: 10px;
+            padding: 30px; 
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
         }
 
+        /* Form */
         form {
-            max-width: 400px; 
-            margin: auto; 
+            width: 100%; 
+            max-width: 500px; 
             background: #ccddff;
-            padding: 20px; 
-            border-radius: 10px;
+            padding: 30px; 
+            border-radius: 12px; 
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
         }
 
         input, textarea {
             width: 100%; 
-            padding: 10px; 
+            padding: 12px; 
             margin: 10px 0;
+            border: 1px solid #ddd; 
+            border-radius: 6px; 
+            box-sizing: border-box;
         }
 
         .btn { 
             background: purple; 
             color: white; 
-            padding: 10px 20px; 
-            border: none; 
+            border: none;
+            padding: 12px 30px; 
+            border-radius: 6px; 
             cursor: pointer;
+            font-size: 1rem; 
+            font-weight: bold; 
+            transition: 0.3s;
         }
 
+        /* FIXED COLOR */
         .btn:hover { background: #a855f7; }
+
+        h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+
+        p.subtitle {
+            font-weight: bold; 
+            color: #440033; 
+            max-width: 600px; 
+            text-align: center; 
+            line-height: 1.6;
+        }
 
         .social a {
             margin: 0 10px;
-            color: purple;
             text-decoration: none;
             font-weight: bold;
+            color: purple;
         }
     </style>
 </head>
@@ -99,7 +127,7 @@
 
 <nav>
     <a onclick="showPage('splash')">Home</a>
-    <a onclick="showPage('about')">About</a>
+    <a onclick="showPage('about')">About Me</a>
     <a onclick="showPage('services')">Skills</a>
     <a onclick="showPage('contact')">Contact</a>
 </nav>
@@ -107,13 +135,16 @@
 <!-- HOME -->
 <section id="splash" class="page active">
     <h1>Soe Soe</h1>
-    <p>HND Computing Student</p>
-    <button class="btn" onclick="showPage('services')">My Skills</button>
+    <p style="opacity: 0.8;">HND Computing Student | Future Developer</p>
+    <button class="btn" style="margin-top:20px" onclick="showPage('services')">Explore My Skills</button>
 </section>
 
 <!-- ABOUT -->
 <section id="about" class="page">
     <h1>About Me</h1>
+    <p class="subtitle">
+        I am a computing student passionate about web development and building practical digital solutions.
+    </p>
     <p>
         Diploma – YOUTH International College, Yangon<br>
         Bachelor Degree (Ongoing) – Payap University
@@ -123,16 +154,17 @@
 <!-- SKILLS -->
 <section id="services" class="page">
     <h1>My Skills</h1>
+    <p class="subtitle">What I am learning and working on.</p>
 
     <div class="grid">
         <div class="card">
             <h3>Web Development</h3>
-            <p>HTML, CSS, JavaScript</p>
+            <p>HTML, CSS, JavaScript (basic level)</p>
         </div>
 
         <div class="card">
             <h3>Projects</h3>
-            <p>Student web design projects</p>
+            <p>Student web design and UI projects</p>
         </div>
 
         <div class="card">
@@ -145,15 +177,18 @@
 <!-- CONTACT -->
 <section id="contact" class="page">
     <h1>Contact Me</h1>
+    <p class="subtitle">Feel free to connect with me.</p>
 
-    <form action="mailto:yourrealemail@gmail.com" method="post">
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea rows="5" placeholder="Message" required></textarea>
-        <button class="btn">Send</button>
+    <!-- FIXED EMAIL -->
+    <form action="mailto:yourrealemail@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea rows="5" name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
     </form>
 
-    <div class="social">
+    <!-- SOCIAL LINKS -->
+    <div class="social" style="margin-top:20px;">
         <p>Follow me:</p>
         <a href="https://www.facebook.com/soe.yar.zar.min.971323">Facebook</a> |
         <a href="https://www.tiktok.com/@soe_soe016?is_from_webapp=1&sender_device=pc">TikTok</a>
@@ -162,9 +197,21 @@
 
 <script>
 function showPage(pageId) {
-    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    const pages = document.querySelectorAll('.page');
+    pages.forEach(page => page.classList.remove('active'));
     document.getElementById(pageId).classList.add('active');
+    window.history.pushState(null, null, `#${pageId}`);
 }
+
+window.addEventListener('load', () => {
+    const hash = window.location.hash.replace('#', '');
+    if (hash) showPage(hash);
+});
+
+window.onpopstate = () => {
+    const hash = window.location.hash.replace('#', '') || 'splash';
+    showPage(hash);
+};
 </script>
 
 </body>
