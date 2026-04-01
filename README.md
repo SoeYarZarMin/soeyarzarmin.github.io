@@ -1,6 +1,6 @@
-<img src="luffy.jpeg" alt="My Photo" align="right" width="30%"/>
+<img src="syzm.jpg" alt="My Photo" align="right" width="30%"/>
 
-# _Monkey D.Luffy_
+# _Soe Yar Zar Min_
 > _Praeceptor Emeritus_<br />
 > Payap University, Department of Computer Science<br />
 > Amphur Muang, Chiang Mai 50000, Thailand<br />
