@@ -1,6 +1,6 @@
 <img src="SYZM.jpg" alt="My Photo" align="right" width="20%"/>
 
-# _Soe Soe_
+# _Soe Yar Zar Min_
 > _HND Computing Student_<br />
 > Payap University, Department of Computer Science<br />
 > Chiang Mai, Thailand<br />
