@@ -10,7 +10,7 @@
 
 # Education
 * Diploma in Computing – YOUTH International College, Yangon
-* Bachelor’s Degree in Computer Science (Currently Studying) – Payap University, Thailand
+* Bachelor’s Degree in Information Technology (Currently Studying) – Payap University, Thailand
 
 # Skills
 * Programming: HTML, CSS, JavaScript, Python (basic)
